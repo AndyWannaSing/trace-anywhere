@@ -1,0 +1,6 @@
+com\andy\trace\agent\TraceAgent.class
+com\andy\trace\agent\FileAccessHelper.class
+com\andy\trace\agent\TraceAgent$1.class
+com\andy\trace\agent\AppStartMethodAccessCounter.class
+com\andy\trace\agent\ExecutionReporter.class
+com\andy\trace\agent\HighPerformanceFileWriter.class

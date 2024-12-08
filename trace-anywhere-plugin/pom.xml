@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>trace-anywhere-parent</artifactId>
+        <groupId>com.andy.trace</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>trace-anywhere-plugin</artifactId>
+    <packaging>pom</packaging>
+
+    <name>trace-anywhere-plugin</name>
+    <url>http://maven.apache.org</url>
+
+    <modules>
+        <module>trace-anywhere-plugin-execution</module>
+        <module>trace-anywhere-plugin-http</module>
+        <module>trace-anywhere-plugin-kafka</module>
+        <module>trace-anywhere-plugin-mysql</module>
+        <module>trace-anywhere-plugin-redis</module>
+        <module>trace-anywhere-plugin-tcp</module>
+    </modules>
+
+</project>

@@ -26,3 +26,5 @@ replay_pid*
 # IDEA
 /.idea
 **/*.iml
+
+/trace-anywhere-plugin/built_plugin_jars/
