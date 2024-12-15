@@ -40,7 +40,7 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-engine</artifactId>
             <version>${activiti.version}</version>
@@ -50,35 +50,46 @@
             <artifactId>activiti-spring</artifactId>
             <version>${activiti.version}</version>
         </dependency>
-        <!-- bpmn 模型处理 -->
+        &lt;!&ndash; bpmn 模型处理 &ndash;&gt;
         <dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-bpmn-model</artifactId>
             <version>${activiti.version}</version>
         </dependency>
-        <!-- bpmn 转换 -->
+        &lt;!&ndash; bpmn 转换 &ndash;&gt;
         <dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-bpmn-converter</artifactId>
             <version>${activiti.version}</version>
         </dependency>
-        <!-- bpmn json数据转换 -->
+        &lt;!&ndash; bpmn json数据转换 &ndash;&gt;
         <dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-json-converter</artifactId>
             <version>${activiti.version}</version>
         </dependency>
-        <!-- bpmn 布局 -->
+        &lt;!&ndash; bpmn 布局 &ndash;&gt;
         <dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-bpmn-layout</artifactId>
             <version>${activiti.version}</version>
         </dependency>
-        <!-- activiti 云支持 -->
+        &lt;!&ndash; activiti 云支持 &ndash;&gt;
         <dependency>
             <groupId>org.activiti.cloud</groupId>
             <artifactId>activiti-cloud-services-api</artifactId>
             <version>${activiti.version}</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <version>3.5.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
     </dependencies>

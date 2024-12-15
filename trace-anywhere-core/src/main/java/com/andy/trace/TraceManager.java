@@ -64,5 +64,16 @@ public class TraceManager {
         TraceContextHolder.printTrace();
     }
 
+    public static void beforeExecSQL(String sql){
+        System.out.println("执行SQL：" + sql);
+    }
+
+    public static void afterExecSQLReturn(String sql){
+        System.out.println("执行SQL成功：" + sql);
+    }
+
+    public static void afterExecSQLException(String sql){
+        System.out.println("执行SQL异常：" + sql);
+    }
 
 }
